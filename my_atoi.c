@@ -123,7 +123,7 @@ int my_atoi(char* s) {
     while (isspace(*p)) {
         p++;
     }
-    printf("p : %s\n", p);
+    //printf("p : %s\n", p);
     int res = 0;
     int sign = 1;
 
